@@ -5,11 +5,11 @@ function HomeHeader() {
         <div>
             <section className="hero is-large has-bg-img">
             <div className="hero-body">
-                <div className="container">
-                <h1 className="title text-center text-white">
+                <div className="wrapper">
+                <h1 className="title text-white">
                     WELCOME TO FEMINAKU!
                 </h1>
-                <h2 className="subtitle text-center text-white">
+                <h2 className="subtitle text-white">
                     Women and Anime Make a Bomb Combo!
                 </h2>
                 </div>
