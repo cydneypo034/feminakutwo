@@ -14,7 +14,7 @@ function MyComponent () {
             bgImageAlt="blury anime girl with babygirl written at top"
             strength={200}>
 
-            <div className="category-header">Categories</div>
+            <div className="header-title2">Categories</div>
             <div className="card-wrapper">
 
                 <div className="card">

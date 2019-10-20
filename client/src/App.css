@@ -13,12 +13,38 @@
   background-size: cover;
 }
 
+.header-title{
+  font-family: source-code-pro,monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 90px;
+}
+
+.header-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+}
+
+.header-title2{
+  font-family: source-code-pro,monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
   width: 25rem;
   height: 35rem;
