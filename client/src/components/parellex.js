@@ -20,6 +20,7 @@ function MyComponent () {
 
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
+                    
                     <div className="overlay">
                     <p className="text">
                         <Button className="btn btn-secondary" href="#">View The Latest Fashion List</Button>

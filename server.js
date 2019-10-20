@@ -18,6 +18,7 @@ const app = express()
  */
 const { userRouter } = require('./controllers/user.js')
 const { productRouter } = require('./controllers/productdetail.js')
+const { gameRouter } = require('./controllers/videogame.js')
 
 
 /* Step 3
@@ -53,6 +54,7 @@ app.use(express.static(`${__dirname}/client/build`))
  */
 app.use('/api/user', userRouter)
 app.use('/api/products', productRouter)
+app.use('/api/games', gameRouter)
 
 /* Step 5
  *

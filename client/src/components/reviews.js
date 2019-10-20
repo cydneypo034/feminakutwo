@@ -1,13 +1,14 @@
 import React from 'react';
 
-function Reviews(){
-    return(
+class Reviews extends React.Component {
+    render(){
+        return(
         <div>
             <section className="hero is-large has-bg-img2">
                 You
             </section>
-        </div>
-    )
+        </div>)
+        }
 }
 
 export default Reviews;
