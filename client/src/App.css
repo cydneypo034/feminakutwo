@@ -3,10 +3,21 @@
   background-size: cover;
 }
 
+.has-bg-img2 {
+  background: url(./components/images/girlandboy.jpg) center;
+  background-size: cover;
+}
+
+.has-bg-img3{
+  background: url(./components/images/nikegirl.jpeg) center;
+  background-size: cover;
+}
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   width: 25rem;

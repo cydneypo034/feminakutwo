@@ -4,6 +4,9 @@ import Navbar from './components/navbar.js';
 import Home from './components/homeheader.js';
 import About from './components/about.js';
 import Parallex from './components/parellex.js';
+import Shops from './components/shops.js';
+import Contact from './components/contact.js';
+import Footer from './components/footer.js';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
 
       <About />
       <Parallex />
+      <Shops />
+      <Contact />
+      <Footer />
     </div>
   );
 }
