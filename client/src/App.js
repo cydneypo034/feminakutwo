@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/navbar.js';
 import Home from './components/homeheader.js';
 import About from './components/about.js';
+import Parallex from './components/parellex.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
 
       <About />
+      <Parallex />
     </div>
   );
 }
