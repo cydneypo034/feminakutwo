@@ -27,7 +27,36 @@
   font-style: normal;
   color: white;
   font-size: 40px;
+  text-align: center;
 }
+
+.footer-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+.card-header-title{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.card-header-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 .header-title2{
   font-family: source-code-pro,monospace;

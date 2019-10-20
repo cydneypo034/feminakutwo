@@ -23,17 +23,18 @@ class Contact extends React.Component {
     shopList() {
         const Shop = props => (
            <MDBCol>
-            <MDBCard style={{ width: "20rem" , height: "50rem"}}>
+            <MDBCard color="black" style={{ width: "21rem" , height: "50rem"}}>
             <MDBCardBody>
             <MDBCardImage className="card-image" src={props.shop.pictureURL} alt="photo of shop" height="100px" width="100px" />
             
-            <MDBCardTitle>{props.shop.name}</MDBCardTitle>
-            <MDBCardText>
-            {props.shop.description} <br />
-            {props.shop.website} <br />
+            <MDBCardTitle className="card-header-title">{props.shop.name}</MDBCardTitle>
+            <MDBCardText className="card-header-subtitle">
+            Description: {props.shop.description} <br />
+            Website: {props.shop.website} <br />
+            Price Range: {props.shop.priceRange}
 
             </MDBCardText>
-            <MDBBtn href="#">MDBBtn</MDBBtn>
+            <MDBBtn className="btn btn-secondary text-center" href="#!">View This Store</MDBBtn>
             </MDBCardBody>
         </MDBCard>
         </MDBCol>
@@ -48,9 +49,16 @@ class Contact extends React.Component {
     render() {
         return (
         <div>
+            <section className="hero is-large has-bg-img3">
+            <div className="header-title2">Merch Spotlight</div>
+            <p className="header-subtitle">Our space was made to be a safe one 
+            where interests in other activities are kept in mind.</p>
+
+
             <div className="card-wrapper">
             {this.shopList()}
         </div>
+        </section>
         </div>
     )
     }
