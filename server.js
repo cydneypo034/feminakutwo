@@ -17,6 +17,7 @@ const app = express()
  *
  */
 const { userRouter } = require('./controllers/user.js')
+const { productRouter } = require('./controllers/productdetail.js')
 
 
 /* Step 3
@@ -51,6 +52,7 @@ app.use(express.static(`${__dirname}/client/build`))
  * the paths defined in the router.
  */
 app.use('/api/user', userRouter)
+app.use('/api/products', productRouter)
 
 /* Step 5
  *
