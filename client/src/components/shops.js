@@ -25,7 +25,8 @@ class Contact extends React.Component {
            <MDBCol>
             <MDBCard color="black" style={{ width: "21rem" , height: "50rem"}}>
             <MDBCardBody>
-            <MDBCardImage className="card-image" src={props.shop.pictureURL} alt="photo of shop" height="100px" width="100px" />
+            <MDBCardImage className="card-image" src={props.shop.pictureURL} 
+            alt="photo of shop" height="100px" width="100px" />
             
             <MDBCardTitle className="card-header-title">{props.shop.name}</MDBCardTitle>
             <MDBCardText className="card-header-subtitle">
@@ -51,8 +52,8 @@ class Contact extends React.Component {
         <div>
             <section className="hero is-large has-bg-img3">
             <div className="header-title2">Merch Spotlight</div>
-            <p className="header-subtitle">Our space was made to be a safe one 
-            where interests in other activities are kept in mind.</p>
+            <p className="header-subtitle">Here's a look at a few of our favorite 
+            places to buy cute trendy fashion pieces.</p>
 
 
             <div className="card-wrapper">

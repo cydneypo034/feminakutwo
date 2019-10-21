@@ -1,6 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
-import { MDBCard, MDBCardImage } from "mdbreact";
+import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText } from "mdbreact";
 
 
 class Games extends React.Component {
@@ -13,6 +13,7 @@ class Games extends React.Component {
         }
     }
 
+
     componentDidMount() {
         Axios.get('/api/games')
             .then(response => {
@@ -23,9 +24,24 @@ class Games extends React.Component {
 
     gameList() {
         const Game = props => (
-            <MDBCard color="black" className="card-body" style={{ width: "22rem", marginTop: "1rem" }}>            
-            <MDBCardImage className="card-image" src={props.game.picture} 
-            alt="photo of shop" />
+            <MDBCard color="black" style={{ width: "22rem", height: "60rem" }}>
+            <MDBCardBody>
+            <MDBCardTitle className="card-header-title">{props.game.name}</MDBCardTitle>
+
+                <MDBCardImage className="card-image" src={props.game.picture}
+                    alt="photo of shop" height="100px" width="100px"/>
+                    <MDBCardText className="card-header-subtitle">
+                        <br />
+                        Description: {props.game.description} <br/>
+                        Price: {props.game.price} <br/>
+                        Best Console To Play On: {props.game.bestConsolesToPlayOn} <br/>
+                        Main Characters: {props.game.mainCharacters} <br/>
+                        Genre: {props.game.genre} <br/>
+                        Amount Of Levels: {props.game.amountOfLevels} <br/>
+                        </MDBCardText>
+                    
+                </MDBCardBody>
+                
             </MDBCard>
 
         )
@@ -40,6 +56,7 @@ class Games extends React.Component {
                 <section className="hero is-large has-bg-img4">
                     <div className="card-wrapper">
                         {this.gameList()}
+
                     </div>
                 </section>
             </div>
