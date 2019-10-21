@@ -25,7 +25,7 @@ class Reviews extends React.Component {
         const User = props => (
            
             <MDBCard color="black" style={{ width: "21rem" , height: "20rem"}}>
-            <MDBCardBody cascade>
+            <MDBCardBody>
             <MDBCardTitle className="card-header-title">{props.user.name}</MDBCardTitle>
             <MDBCardText className="card-header-subtitle">
             City And State: {props.user.cityAndState} <br />

@@ -20,31 +20,25 @@ function MyComponent () {
 
             <div className="card">
                     <img src={Vender} alt="girl by vending machine" className="image"/>
-                    <div className="overlay">
                     <p className="text">
                         <Button className="btn btn-secondary" href="/users">View Our Community</Button>
                          </p>
-                    </div>
                 </div>
 
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
                     
-                    <div className="overlay">
                     <p className="text">
                         <Button className="btn btn-secondary" href="/shops">View The Latest Fashion List</Button>
                          </p>
-                    </div>
                 </div>
 
 
                 <div className="card">
                     <img src={Gamer} alt="girl next to arcade" className="image"/>
-                    <div className="overlay">
                     <p className="text">
                         <Button className="btn btn-secondary" href="/games">View Our Favorite Games</Button>
                          </p>
-                    </div>
                 </div>
 
                 </div>

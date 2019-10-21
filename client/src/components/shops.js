@@ -32,9 +32,9 @@ class Shop extends React.Component {
             Description: {props.shop.description} <br />
             Website: {props.shop.website} <br />
             Price Range: {props.shop.priceRange}
+            <MDBBtn className="btn btn-secondary text-center" href={props.shop.website}>{props.shop.website}</MDBBtn>
 
             </MDBCardText>
-            <MDBBtn className="btn btn-secondary text-center" href="#!">View This Store</MDBBtn>
             </MDBCardBody>
         </MDBCard>
         )
