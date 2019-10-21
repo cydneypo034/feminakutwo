@@ -18,12 +18,21 @@ function MyComponent () {
             <p className="header-subtitle">Our space was made to be a safe one where interests in other activities are kept in mind.</p>
             <div className="card-wrapper">
 
+            <div className="card">
+                    <img src={Vender} alt="girl by vending machine" className="image"/>
+                    <div className="overlay">
+                    <p className="text">
+                        <Button className="btn btn-secondary" href="/users">View Our Community</Button>
+                         </p>
+                    </div>
+                </div>
+
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
                     
                     <div className="overlay">
                     <p className="text">
-                        <Button className="btn btn-secondary" href="/#">View The Latest Fashion List</Button>
+                        <Button className="btn btn-secondary" href="/shops">View The Latest Fashion List</Button>
                          </p>
                     </div>
                 </div>
@@ -33,20 +42,11 @@ function MyComponent () {
                     <img src={Gamer} alt="girl next to arcade" className="image"/>
                     <div className="overlay">
                     <p className="text">
-                        <Button className="btn btn-secondary" href="#">View Our Favorite Games</Button>
+                        <Button className="btn btn-secondary" href="/games">View Our Favorite Games</Button>
                          </p>
                     </div>
                 </div>
 
-
-                <div className="card">
-                    <img src={Vender} alt="girl by vending machine" className="image"/>
-                    <div className="overlay">
-                    <p className="text">
-                        <Button className="btn btn-secondary" href="#">View Our Community</Button>
-                         </p>
-                    </div>
-                </div>
                 </div>
 
            

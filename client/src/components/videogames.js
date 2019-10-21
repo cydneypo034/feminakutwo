@@ -24,7 +24,7 @@ class Games extends React.Component {
 
     gameList() {
         const Game = props => (
-            <MDBCard color="black" style={{ width: "22rem", height: "60rem" }}>
+            <MDBCard color="black" style={{ width: "21rem", height: "60rem" }}>
             <MDBCardBody>
             <MDBCardTitle className="card-header-title">{props.game.name}</MDBCardTitle>
 
@@ -43,7 +43,6 @@ class Games extends React.Component {
                 </MDBCardBody>
                 
             </MDBCard>
-
         )
         return this.state.games.map(function (game, i) {
             return <Game game={game} key={i} />
@@ -54,6 +53,7 @@ class Games extends React.Component {
         return (
             <div>
                 <section className="hero is-large has-bg-img4">
+                <div className="header-title2">Gaming Spotlight</div>
                     <div className="card-wrapper">
                         {this.gameList()}
 

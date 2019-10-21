@@ -15,7 +15,8 @@ class Reviews extends React.Component {
             <section className="hero is-large has-bg-img2">
                 You
             </section>
-        </div>)
+        </div>
+        )
         }
 }
 

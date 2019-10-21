@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from 'mdbreact';
 
-class Contact extends React.Component {
+class Shop extends React.Component {
 
     constructor(props){
         super(props);
@@ -22,7 +22,6 @@ class Contact extends React.Component {
 
     shopList() {
         const Shop = props => (
-           <MDBCol>
             <MDBCard color="black" style={{ width: "21rem" , height: "50rem"}}>
             <MDBCardBody>
             <MDBCardImage className="card-image" src={props.shop.pictureURL} 
@@ -38,7 +37,6 @@ class Contact extends React.Component {
             <MDBBtn className="btn btn-secondary text-center" href="#!">View This Store</MDBBtn>
             </MDBCardBody>
         </MDBCard>
-        </MDBCol>
         )
         return this.state.productShops.map(function(productShop, i){
             return <Shop shop={productShop} key={i} />
@@ -51,9 +49,7 @@ class Contact extends React.Component {
         return (
         <div>
             <section className="hero is-large has-bg-img3">
-            <div className="header-title2">Merch Spotlight</div>
-            <p className="header-subtitle">Here's a look at a few of our favorite 
-            places to buy cute trendy fashion pieces.</p>
+            <div className="header-title2">Fashion Spotlight</div>
 
 
             <div className="card-wrapper">
@@ -66,4 +62,4 @@ class Contact extends React.Component {
     
 }
 
-export default Contact;
+export default Shop;
