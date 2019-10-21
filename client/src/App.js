@@ -7,18 +7,22 @@ import Parallex from './components/parellex.js';
 import Shops from './components/shops.js';
 import Reviews from './components/reviews.js';
 import Footer from './components/footer.js';
+import VideoGames from './components/videogames.js';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-
       <About />
       <Parallex />
       <Shops />
+      <VideoGames />
       <Reviews />
-      <Footer />
+      
+      <Footer /> 
+
+      
     </div>
   );
 }

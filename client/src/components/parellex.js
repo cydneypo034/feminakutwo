@@ -23,7 +23,7 @@ function MyComponent () {
                     
                     <div className="overlay">
                     <p className="text">
-                        <Button className="btn btn-secondary" href="#">View The Latest Fashion List</Button>
+                        <Button className="btn btn-secondary" href="/#">View The Latest Fashion List</Button>
                          </p>
                     </div>
                 </div>
