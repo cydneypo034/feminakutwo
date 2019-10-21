@@ -8,6 +8,7 @@ var GameSchema = new mongoose.Schema({
     mainCharacters: String,
     genre: String,
     amountOfLevels: String,
+    picture: String,
     wouldRecommend: Boolean
 })
 

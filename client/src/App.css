@@ -13,6 +13,11 @@
   background-size: cover;
 }
 
+.has-bg-img4{
+  background: url(./components/images/space.jpg) center;
+  background-size: cover ;
+}
+
 .header-title{
   font-family: source-code-pro,monospace;
   font-weight: 700;
