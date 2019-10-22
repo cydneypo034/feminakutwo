@@ -8,7 +8,13 @@ function Footer() {
         <MDBRow>
           <MDBCol md="6">
           <h5 className="footer-subtitle">Our Headquarters</h5>
-
+          <ul>
+            <li className="list-unstyled">
+              444 Cambridge Highway <br />
+              Tampa, FL 30798 <br/>
+              333 x 330 x 2948
+            </li>
+          </ul>
           </MDBCol>
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBBtn
+MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -57,12 +57,7 @@ render() {
                 </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-            <div className="button-size">
-              <MDBBtn color="secondary"  type="submit">
-                NewsLetter Sign Up
-                <MDBIcon far icon="paper-plane" className="ml-2" />
-              </MDBBtn>
-              </div>
+            
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

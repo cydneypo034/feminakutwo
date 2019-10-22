@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-
+import { MDBBtn } from "mdbreact";
 import Space from './images/spacegirl.jpg';
 import Gamer from './images/videogame.jpeg';
 import Vender from './images/vending.png';
@@ -20,19 +20,31 @@ function MyComponent () {
 
             <div className="card">
                     <img src={Vender} alt="girl by vending machine" className="image"/>
-                    
+                    <div className="overlay">
+                    <div className="text">
+                    <MDBBtn gradient="purple">View Our Community</MDBBtn>
+                    </div>
+                    </div>
                 </div>
 
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
-                    
+                    <div className="overlay">
+                    <div className="text">
+                    <MDBBtn gradient="purple">View Our Fashion List</MDBBtn>
+                    </div>
+                    </div>
                     
                 </div>
 
 
                 <div className="card">
                     <img src={Gamer} alt="girl next to arcade" className="image"/>
-                   
+                    <div className="overlay">
+                    <div className="text">
+                    <MDBBtn gradient="purple">View Our Favorite Games</MDBBtn>
+                    </div>
+                    </div>
                 </div>
 
                 </div>

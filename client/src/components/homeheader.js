@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React, { Fragment } from 'react';
+import { MDBIcon, MDBBtn} from "mdbreact";
 
 function HomeHeader() {
     return (
@@ -15,6 +15,14 @@ function HomeHeader() {
                 May All The Magical Girls Arise!
 
                 </h2>
+                <Fragment>
+                <div className="button-size">
+              <MDBBtn gradient="purple" type="submit">
+                NewsLetter Sign Up
+                <MDBIcon far icon="paper-plane" className="ml-2" />
+              </MDBBtn>
+              </div>
+              </Fragment>
                 </div>
                 </div>
             </section>
