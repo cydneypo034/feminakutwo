@@ -105,11 +105,15 @@
   .card {
       margin: 1rem;
   }
-
- 
 }
 
+.form-control {
+  width: 40%;
+}
 
+.button-size {
+  height: 20%;
+}
 .image {
   display: block;
   width: 100%;

@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter} from "mdbreact";
 
 function Footer() {
   return (
@@ -7,12 +7,13 @@ function Footer() {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="footer-subtitle">Map</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
+          <h5 className="footer-subtitle">Our Headquarters</h5>
+
           </MDBCol>
+
+
+
+
           <MDBCol md="6">
             <h5 className="footer-subtitle">Quick Links</h5>
             <ul>
@@ -29,6 +30,10 @@ function Footer() {
                 <a href="#!">Collaboration</a>
               </li>
             </ul>
+
+          
+
+
           </MDBCol>
         </MDBRow>
       </MDBContainer>
