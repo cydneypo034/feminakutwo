@@ -20,19 +20,15 @@ function MyComponent () {
 
             <div className="card">
                     <img src={Vender} alt="girl by vending machine" className="image"/>
-                    <div className="overlay">
                     <div className="text">
-                    <MDBBtn gradient="purple">View Our Community</MDBBtn>
-                    </div>
+                    <MDBBtn gradient="purple" href="/user">View Our Community</MDBBtn>
                     </div>
                 </div>
 
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
-                    <div className="overlay">
                     <div className="text">
                     <MDBBtn gradient="purple">View Our Fashion List</MDBBtn>
-                    </div>
                     </div>
                     
                 </div>
@@ -40,10 +36,8 @@ function MyComponent () {
 
                 <div className="card">
                     <img src={Gamer} alt="girl next to arcade" className="image"/>
-                    <div className="overlay">
                     <div className="text">
                     <MDBBtn gradient="purple">View Our Favorite Games</MDBBtn>
-                    </div>
                     </div>
                 </div>
 
