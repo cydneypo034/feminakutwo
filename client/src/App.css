@@ -1,5 +1,5 @@
 .has-bg-img {
-  background: url(./components/images/vhstape.png) center;
+  background: url(./components/images/gamergirl.png) center;
   background-size: cover;
 }
 
@@ -23,7 +23,9 @@
   font-weight: 700;
   font-style: normal;
   color: white;
-  font-size: 90px;
+  font-size: 60px;
+  text-align: center;
+
 }
 
 .header-subtitle{
