@@ -18,6 +18,11 @@
   background-size: cover ;
 }
 
+.has-bg-img5{
+  background: url(./components/images/vhstape.png) center;
+  background-size: cover;
+}
+
 .header-title{
   font-family: source-code-pro,monospace;
   font-weight: 700;
@@ -37,6 +42,27 @@
   text-align: center;
 }
 
+.nav-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+} 
+
+
+.create-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 1px 5px black;
+
+}
+
 .footer-subtitle{
   font-family: source-code-pro,monospace;
   font-weight: 400;
@@ -52,7 +78,6 @@
   color: white;
   font-size: 40px;
   text-align: center;
-
 }
 
 

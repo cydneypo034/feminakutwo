@@ -23,11 +23,12 @@ class Shop extends React.Component {
     shopList() {
         const Shop = props => (
             <MDBCard color="black" style={{ width: "21rem" , height: "50rem"}}>
-            <MDBCardBody>
+            <MDBCardBody>            
+            <MDBCardTitle className="card-header-title">{props.shop.name}</MDBCardTitle>
+
             <MDBCardImage className="card-image" src={props.shop.pictureURL} 
             alt="photo of shop" height="100px" width="100px" />
-            
-            <MDBCardTitle className="card-header-title">{props.shop.name}</MDBCardTitle>
+            <br/>
             <MDBCardText className="card-header-subtitle">
             Description: {props.shop.description} <br />
             Website: {props.shop.website} <br />

@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
+import {MDBBtn, MDBIcon } from "mdbreact";
 
 class CreateUsers extends React.Component {
 
@@ -64,42 +65,56 @@ class CreateUsers extends React.Component {
             socialMedia: ''
         })
 
-        this.props.history.push('/allusers');
+        this.props.history.push('/user');
 
     }
 
     render() {
         return (
             <div >
-            
-                <form className="this-form" onSubmit={this.handleSubmitInput}>
-                    <label className="text-class">Name</label>
+            <section className="hero is-md has-bg-img5">
+            <div className="hero-body">
+                <div className="">
+
+                <form onSubmit={this.handleSubmitInput}>
+                    <p className="create-subtitle">Enter your Info <br/>to Join our Community!</p>
+                    <label className="header-subtitle">Your Name</label>
                     <input type="text"
-                        className="form-control"
-                        value={this.state.name}
-                        onChange={this.onChangeName}
-                    />
-                    <label className="text-class">City and State</label>
+                            className="form-control"
+                            value={this.state.name}
+                            onChange={this.onChangeName}
+                            />
+                    <br />
+                    <label className="header-subtitle">Give Your City And State</label>
                     <input type="text"
-                        className="form-control"
-                        value={this.state.cityAndState}
-                        onChange={this.onChangeCityAndState}
-                    />
-                    <label className="text-class">Age</label>
-                    <input type="number"
-                        className="form-control"
-                        value={this.state.age}
-                        onChange={this.onChangeAge}
-                    />
-                    <label className="text-class">Social Media</label>
+                            className="form-control"
+                            value={this.state.cityAndState}
+                            onChange={this.onChangeCityAndState}
+                            />
+                    <br />
+                    <label className="header-subtitle">Age</label>
                     <input type="text"
-                        className="form-control"
-                        value={this.state.socialMedia}
-                        onChange={this.onChangeSocialMedia}
-                    />
-                    <br></br>
-                
-                </form>
+                            className="form-control"
+                            value={this.state.age}
+                            onChange={this.onChangeAge}
+                            />
+                    <br />
+                    <label className="header-subtitle">What's Your Social Media?</label>
+                    <input type="text"
+                            className="form-control"
+                            value={this.state.socialMedia}
+                            onChange={this.onChangeSocialMedia}
+                            />
+                    <div className="text-left mt-4">
+                         <MDBBtn gradient="purple" type="submit" value="submit">
+                                Send
+                                <MDBIcon far icon="paper-plane" className="ml-2" />
+                            </MDBBtn>
+                            </div>
+                        </form>
+                        </div>
+                        </div>
+                        </section>
             </div>
         )
     }

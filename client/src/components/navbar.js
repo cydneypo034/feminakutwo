@@ -63,9 +63,7 @@ render() {
                 <MDBIcon fab icon="facebook" />
                 </MDBNavLink>
             </MDBNavItem>
-            <MDBNavItem>
             
-            </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
