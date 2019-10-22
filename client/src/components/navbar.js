@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
+MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, 
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -42,11 +42,19 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBFormInline waves>
-                <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                </div>
-              </MDBFormInline>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="twitter" />
+                </MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="instagram" />
+                </MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="facebook" />
+                </MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

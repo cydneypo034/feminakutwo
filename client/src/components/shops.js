@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from 'mdbreact';
 
 class Shop extends React.Component {
 
@@ -32,7 +32,6 @@ class Shop extends React.Component {
             Description: {props.shop.description} <br />
             Website: {props.shop.website} <br />
             Price Range: {props.shop.priceRange}
-            <MDBBtn className="btn btn-secondary text-center" href={props.shop.website}>{props.shop.website}</MDBBtn>
 
             </MDBCardText>
             </MDBCardBody>
