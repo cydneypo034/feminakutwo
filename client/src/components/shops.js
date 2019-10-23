@@ -23,7 +23,7 @@ class Shop extends React.Component {
     shopList() {
         const Shop = props => (
             <MDBCard color="black" style={{ width: "21rem" , height: "50rem"}}>
-            <MDBCardBody>            
+            <MDBCardBody>
             <MDBCardTitle className="card-header-title">{props.shop.name}</MDBCardTitle>
 
             <MDBCardImage className="card-image" src={props.shop.pictureURL} 

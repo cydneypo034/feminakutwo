@@ -78,28 +78,28 @@ class CreateUsers extends React.Component {
 
                 <form onSubmit={this.handleSubmitInput}>
                     <p className="create-subtitle">Enter your Info <br/>to Join our Community!</p>
-                    <label className="header-subtitle">Your Name</label>
+                    <label className="createpage-subtitle">Your Name</label>
                     <input type="text"
                             className="form-control"
                             value={this.state.name}
                             onChange={this.onChangeName}
                             />
                     <br />
-                    <label className="header-subtitle">Give Your City And State</label>
+                    <label className="createpage-subtitle">Give Your City And State</label>
                     <input type="text"
                             className="form-control"
                             value={this.state.cityAndState}
                             onChange={this.onChangeCityAndState}
                             />
                     <br />
-                    <label className="header-subtitle">Age</label>
+                    <label className="createpage-subtitle">Age</label>
                     <input type="text"
                             className="form-control"
                             value={this.state.age}
                             onChange={this.onChangeAge}
                             />
                     <br />
-                    <label className="header-subtitle">What's Your Social Media?</label>
+                    <label className="createpage-subtitle">What's Your Social Media?</label>
                     <input type="text"
                             className="form-control"
                             value={this.state.socialMedia}

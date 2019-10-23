@@ -19,7 +19,7 @@
 }
 
 .has-bg-img5{
-  background: url(./components/images/vhstape.png) center;
+  background: url(./components/images/windows.png) center;
   background-size: cover;
 }
 
@@ -40,15 +40,28 @@
   color: white;
   font-size: 40px;
   text-align: center;
+
 }
 
+.createpage-subtitle{
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
 .nav-subtitle{
   font-family: source-code-pro,monospace;
   font-weight: 400;
   font-style: normal;
   color: white;
-  font-size: 35px;
+  font-size: 18px;
   text-align: center;
+  padding: 5px;
+  height: 50px;
+  line-height: 50px;
+  bottom: 12px;
 } 
 
 

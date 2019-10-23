@@ -32,10 +32,11 @@ class App extends React.Component {
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+        
         <MDBNavbarNav left>
         
         <MDBNavItem active >
-        <Link to ="/" className="nav-subtitle">Home </Link>
+       <Link to ="/" className="nav-subtitle">Home </Link>
         </MDBNavItem>
         
         <MDBNavItem >

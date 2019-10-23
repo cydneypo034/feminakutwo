@@ -4,7 +4,6 @@ import { Parallax } from 'react-parallax';
 import Space from './images/spacegirl.jpg';
 import Gamer from './images/videogame.jpeg';
 import Vender from './images/vending.png';
-import {BrowserRouter as Router, Link } from 'react-router-dom';
 
 function HomeHeader() {
     return (
@@ -70,9 +69,7 @@ function HomeHeader() {
                 <div className="card">
                     <img src={Space} alt="girl in space" className="image"/>
                     <div className="text">
-                        <Router>
-                        <Link to="/shops">View Our Fashion List</Link>
-                        </Router>
+                    <MDBBtn gradient="purple" href="/shops">View Our Fashion List</MDBBtn>
                     </div>
                     
                 </div>
@@ -81,7 +78,7 @@ function HomeHeader() {
                 <div className="card">
                     <img src={Gamer} alt="girl next to arcade" className="image"/>
                     <div className="text">
-                    <MDBBtn gradient="purple">View Our Favorite Games</MDBBtn>
+                    <MDBBtn gradient="purple" href="/videogames">View Our Favorite Games</MDBBtn>
                     </div>
                 </div>
 
