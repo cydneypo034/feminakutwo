@@ -1,5 +1,6 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter} from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBCardImage} from "mdbreact";
+import map from './images/maps.png';
 
 function Footer() {
   return (
@@ -8,6 +9,7 @@ function Footer() {
         <MDBRow>
           <MDBCol md="6">
           <h5 className="footer-subtitle">Our Headquarters</h5>
+          <MDBCardImage alt="google-map" className="google-map" src={map} width="100px" height="100"/>
           <ul>
             <li className="list-unstyled">
               444 Cambridge Highway <br />

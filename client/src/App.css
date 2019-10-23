@@ -40,7 +40,18 @@
   color: white;
   font-size: 40px;
   text-align: center;
+  text-shadow: 1px 3px black;
 
+}
+
+.categories-subtitle {
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 3px black;
 }
 
 .createpage-subtitle{
@@ -61,7 +72,7 @@
   padding: 5px;
   height: 50px;
   line-height: 50px;
-  bottom: 12px;
+  bottom: 13px;
 } 
 
 
@@ -203,7 +214,11 @@
   height: 100%;
   width: 100%;
 }
-
+.google-map{
+  height: auto;
+  width: auto;
+  display: block;
+}
 .category-header{
   font-size: 30px;
   text-align: center;

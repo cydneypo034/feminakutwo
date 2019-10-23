@@ -56,7 +56,7 @@ function HomeHeader() {
             strength={200}>
             
             <div className="header-title2">Categories</div>
-            <p className="header-subtitle">Our space was made to be a safe one where interests in other activities are kept in mind.</p>
+            <p className="categories-subtitle">Our space was made to be a safe one where interests in other activities are kept in mind.</p>
             <div className="card-wrapper">
 
             <div className="card">
