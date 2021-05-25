@@ -5,7 +5,7 @@ import {MDBBtn, MDBIcon } from "mdbreact";
 class CreateUsers extends React.Component {
 
     constructor(props) {
-        super(props);
+        super();
 
         this.onChangeName = this.onChangeName.bind(this)
         this.onChangeCityAndState = this.onChangeCityAndState.bind(this)
@@ -57,7 +57,7 @@ class CreateUsers extends React.Component {
         Axios.post('/api/user', myNewUser)
         .then(res => console.log(res.data))
 
-
+        console.log(myNewUser);
         this.setState({
             name: '',
             cityAndState: '',
